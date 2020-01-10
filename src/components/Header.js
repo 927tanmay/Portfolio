@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/about.css";
-import resume from "../Resume/Resume_Tanmay_Sharma.pdf";
+import resume from "../Resume/Resume_TanmaySharma.pdf";
 
 export default class Header extends Component {
   render() {

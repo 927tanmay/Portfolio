@@ -23,7 +23,8 @@ let resumeData = {
     }
   ],
   aboutme:
-    "I am currently a 3rd year student at Indian Institute of Information Technology and Management, Gwalior and pursuing my B.Tech in Computer Science from here. I am a self taught Full Stack Web Developer working in the field of MERN stack. I also have a strong skill set of Data Structures & Algorithms.",
+  "I am a prefinal year student pursuing  B.tech(CSE)[2017-2021] at IIIT, Gwalior. I have worked as a Full-Stack Developer Intern at Trybotics on React.js, Node.js & MongoDB. I have done multiple projects in Web Development using Javascript, Node.js, React.js, MySQL, MongoDB. I also have a good understanding of data structures and algorithms.",
+    // "I am currently a 3rd year student at Indian Institute of Information Technology and Management, Gwalior and pursuing my B.Tech in Computer Science from here. I am a self taught Full Stack Web Developer working in the field of MERN stack. I also have a strong skill set of Data Structures & Algorithms.",
   address: "Gwalior(Madhya Pradesh), India",
   website: "https://github.com/927tanmay",
   Phone: "+919549052975",
@@ -34,7 +35,7 @@ let resumeData = {
       specialization: "B.Tech, Computer Science",
       MonthOfPassing: "2017-",
       YearOfPassing: "2021",
-      Achievements: "CGPA: 7.90/10"
+      Achievements: "CGPA: 7.91/10"
     },
     {
       UniversityName: "St. Anselm's North City School, Jaipur",
@@ -51,22 +52,30 @@ let resumeData = {
       Achievements: "CGPA: 9.4/10"
     }
   ],
+  experience: [
+    {
+      name: "Full-Stack Developer intern at Trybotics"
+    },
+    {
+      name: "AASF Website Manager(www.aasf.in)[2018-2019], IIIT-Gwalior"
+    }
+  ]
+  
+  ,
   responsibilities: [
     {
-      name: "Currently External Affairs Head in AASF (TECHNICAL CLUB)"
+      name: "Currently External Affairs Head in AASF (TECHNICAL CLUB), IIIT-Gwalior"
     },
     {
-      name: "Coding Event Coordinator in AASF (2018-2019)"
+      name: "Coding Event Coordinator in AASF (2018-2019), IIIT-Gwalior"
     },
     {
-      name: "AASF Website Manager (www.aasf.in)(2018-2019)"
+      name: "EMT of Infotsav'19(Central India’s Largest Techno-Managerial Fest), IIIT-Gwalior"
     },
     {
-      name: "Promotions Head at MOM-2k18, IIIT Gwalior"
-    },
-    {
-      name: "EMT of Infotsav'19 (Techno-mangerial Fest), ABV-IIITM"
+      name: "Promotions Head at MOM-2k18(Technical Fair), IIIT-Gwalior"
     }
+   
   ],
   details: [
     {
@@ -147,9 +156,24 @@ let resumeData = {
     {
       name: "Entry Management",
       description:
-        "As the visitors in office and outside are high, so made a Entry Management System.",
+        "Entry Management System to maintain a record of the present and past visitors. It captures the necessary details of the visitor and same for the host which triggers an email and a SMS to the host. Used ReactJS, NodeJS, MongoDB, ReduxJS, CSS, ",
       imgurl: "images/portfolio/coffee.jpg",
-      url: "https://github.com/927tanmay/Innovaccer-Intern-2020"
+      url: "https://drive.google.com/file/d/1JV-zzks4s2g0tdTVan0SovM-6U19yX2e/view"
+    },
+    {
+      name: "Utility Robot to Combat Fire Breakout",
+      description:
+        "Developed a mobile robot car which is able to extinguish fire independently. Detects fire with the help of 3 IR sensors attached to it covering an angle of 180 degrees. Used NodeMCU, ArduinoIDE, HTML, CSS, IoT",
+      imgurl: "images/portfolio/console.jpg",
+      url: "https://github.com/927tanmay/Color_Game"
+    },
+    
+    {
+      name: "Weather-Forecast",
+      description:
+        " Web-application to display temperature, humidity and pressure trends over the week. Integrated Google’s Geo-location API to display the satellite view of the city. Used ReactJS, ReduxJS, CSS, Bootstrap",
+      imgurl: "images/portfolio/judah.jpg",
+      url: "https://github.com/927tanmay/Weather-Forecast"
     },
     {
       name: "Movie Search",
@@ -162,8 +186,8 @@ let resumeData = {
       name: "Portfolio Website",
       description:
         "A personal project to showcase my work, testimonials and other information to clients in an interactive way.",
-      imgurl: "images/portfolio/origami.jpg",
-      url: "https://fast-temple-31188.herokuapp.com/"
+      imgurl: "images/portfolio/into-the-light.jpg",
+      url: "https://tanmay-portfolio.herokuapp.com/"
     },
     {
       name: "Photo Adder",
@@ -173,32 +197,19 @@ let resumeData = {
       url: "https://github.com/927tanmay/Photo-Adder"
     },
     {
-      name: "Face Recognition Web App",
+      name: "Face Detection Web App",
       description:
         "Web application for face detection in an image using Clarifai Web API using ReactJS, NodeJS and MongoDB ",
-      imgurl: "images/portfolio/into-the-light.jpg"
-    },
-    {
-      name: "Weather-Forecast",
-      description:
-        " Web-application to display temperature, humidity and pressure trends over the week. Integrated Google’s Geo-location API to display the satellite view of the city",
-      imgurl: "images/portfolio/judah.jpg",
-      url: "https://github.com/927tanmay/Weather-Forecast"
+      imgurl: "images/portfolio/girl.jpg"
     },
     {
       name: "Blog-Form",
       description:
         "A web application using ReactJS and ReduxJS for managing blogs on a website",
-      imgurl: "images/portfolio/console.jpg",
+      imgurl: "images/portfolio/origami.jpg",
       url: "https://github.com/927tanmay/Blog_Form"
     },
-    {
-      name: "Color-Game",
-      description:
-        "A simple Javascript based project. Styling using HTML and CSS",
-      imgurl: "images/portfolio/girl.jpg",
-      url: "https://github.com/927tanmay/Color_Game"
-    }
+   
   ]
 };
 
