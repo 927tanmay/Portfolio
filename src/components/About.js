@@ -9,11 +9,14 @@ export default class About extends Component {
         <div className="row">
           <div className="three columns hover01">
             <figure>
-              <img className="profile-pic" src="images/tanmay.jpg" />
+              <img
+                className="profile-pic"
+                src="images/tanmay.jpg"
+                style={{ width: "300px" }}
+              />
             </figure>
           </div>
-          <div className="twelve columns main-col">
-            {/* <Particle /> */}
+          <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>{resumeData.aboutme}</p>
 
@@ -26,12 +29,12 @@ export default class About extends Component {
                   <span>{resumeData.address}</span>
                   <br />
                   <span>
-                    <a
+                    {/* <a
                       href="https://tanmay-portfolio.herokuapp.com/"
                       style={{ color: "#7a7a7a" }}
-                    >
-                      {resumeData.website}
-                    </a>
+                    > */}
+                    {resumeData.website}
+                    {/* </a> */}
                   </span>
                   <br />
                   <span>{resumeData.Phone}</span>

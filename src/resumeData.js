@@ -3,7 +3,7 @@ let resumeData = {
   name: "Tanmay Sharma",
   role: "Full Stack developer",
   linkedinId: "",
-  skypeid: "1209simran",
+  skypeid: "",
   roleDescription:
     " I enjoy coding for both the front end and the back end. In particular, I enjoy the sense of pride and accomplishment when combining everything into a complete project.",
   socialLinks: [
@@ -26,7 +26,7 @@ let resumeData = {
   aboutme:
     "I am a prefinal year student pursuing  B.tech(CSE)[2017-2021] at IIIT, Gwalior. I have worked as a Full-Stack Developer Intern at Trybotics on React.js, Node.js & MongoDB. I have done multiple projects in Web Development using Javascript, Node.js, React.js, MySQL, MongoDB. I also have a good understanding of data structures and algorithms.",
   address: "Gwalior(Madhya Pradesh), India",
-  website: "https://tanmay-portfolio.herokuapp.com/",
+  website: "927tanmay@gmail.com",
   Phone: "+919549052975",
   education: [
     {
@@ -90,8 +90,13 @@ let resumeData = {
   skillsDescription: "Front-End",
   skills: [
     {
-      imgurl: "images/skills/bootstrap.png",
+      imgurl: "images/skills/react.svg",
     },
+
+    {
+      imgurl: "images/skills/redux.png",
+    },
+
     {
       imgurl: "images/skills/c.svg",
     },
@@ -99,9 +104,26 @@ let resumeData = {
       imgurl: "images/skills/cpp.png",
     },
     {
+      imgurl: "images/skills/js.svg",
+    },
+    {
+      imgurl: "images/skills/nodejs.png",
+    },
+    {
+      imgurl: "images/skills/npm.png",
+    },
+    {
+      imgurl: "images/skills/mongo.png",
+    },
+    {
+      imgurl: "images/skills/sql.svg",
+    },
+    {
       imgurl: "images/skills/css3.png",
     },
-
+    {
+      imgurl: "images/skills/bootstrap.png",
+    },
     {
       imgurl: "images/skills/expressjs.png",
     },
@@ -115,28 +137,14 @@ let resumeData = {
       imgurl: "images/skills/html5.svg",
     },
     {
-      imgurl: "images/skills/js.svg",
-    },
-    {
-      imgurl: "images/skills/nodejs.png",
-    },
-    {
-      imgurl: "images/skills/npm.png",
-    },
-    {
-      imgurl: "images/skills/react.svg",
-    },
-    {
-      imgurl: "images/skills/redux.png",
-    },
-    {
       imgurl: "images/skills/terminal.png",
     },
     {
       imgurl: "images/skills/windows.png",
     },
+
     {
-      imgurl: "images/skills/mongo.png",
+      imgurl: "images/skills/material.png",
     },
     {
       imgurl: "images/skills/adobe.jpeg",

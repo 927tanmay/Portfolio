@@ -15,7 +15,16 @@ export default class About extends Component {
             <ul class="timeline">
               <li class="event">
                 <div className="text">
-                  Software Development Intern - Innovaccer
+                  Software Development Intern -&nbsp;
+                  <span>
+                    <a
+                      href="https://innovaccer.com/"
+                      style={{ color: "lightseagreen" }}
+                      className="company"
+                    >
+                      <span>Innovaccer</span>
+                    </a>
+                  </span>
                 </div>
                 <div style={{ marginBottom: "20px" }}>May 2020 – July 2020</div>
                 <div style={{ marginBottom: "15px" }}>
@@ -32,7 +41,16 @@ export default class About extends Component {
               </li>
               <li class="event">
                 <div className="text">
-                  Web Development Intern - WhatsurSkill
+                  Web Development Intern -&nbsp;
+                  <span>
+                    <a
+                      href="https://www.prographer.com/"
+                      style={{ color: "lightseagreen" }}
+                      className="company"
+                    >
+                      <span>Prographer</span>
+                    </a>
+                  </span>
                 </div>
                 <div style={{ marginBottom: "20px" }}>
                   February 2020 – April 2020
@@ -50,7 +68,16 @@ export default class About extends Component {
               </li>
               <li class="event">
                 <div className="text">
-                  Full Stack Developer Intern - Trybotics
+                  Full Stack Developer Intern -&nbsp;
+                  <span>
+                    <a
+                      href="https://trybotics.com/"
+                      style={{ color: "lightseagreen" }}
+                      className="company"
+                    >
+                      <span>Trybotics</span>
+                    </a>
+                  </span>
                 </div>
                 <div style={{ marginBottom: "20px" }}>
                   October 2019 – December 2019
