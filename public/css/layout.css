@@ -447,7 +447,7 @@ ul#nav li.current a {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-  background: #fff;
+  /* background: #fff; */
   overflow: hidden;
   position: relative;
 
@@ -461,7 +461,10 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
-
+.portfolio-item .item-img {
+  width: 240px;
+  height: 260px;
+}
 /* overlay */
 .portfolio-item .item-wrap .overlay {
   position: absolute;

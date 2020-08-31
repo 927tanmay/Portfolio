@@ -20,7 +20,7 @@ export default class Porfolio extends Component {
                           <img
                             src={`${item.imgurl}`}
                             className="item-img"
-                            style={{ width: "240px", height: "260px" }}
+                            // style={{ width: "240px", height: "260px" }}
                           />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
@@ -35,7 +35,7 @@ export default class Porfolio extends Component {
                                 style={{
                                   color: "#fff",
                                   fontFamily: "sans-serif ",
-                                  marginTop: "20px",
+                                  marginTop: "15px",
                                 }}
                               >
                                 {item.description}
