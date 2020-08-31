@@ -479,7 +479,7 @@
     background: url(../images/overlay-bg.png) repeat;
   }
   .portfolio-item .portfolio-item-meta {
-    transform: translateY(60%);
+    /* transform: translateY(60%); */
     font-size: 12px;
   }
   .portfolio-item .item-img {
