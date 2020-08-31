@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Particle from "../components/particle";
+// import Particle from "../components/particle";
 
 export default class About extends Component {
   render() {
@@ -12,9 +12,8 @@ export default class About extends Component {
               <img className="profile-pic" src="images/tanmay.jpg" />
             </figure>
           </div>
-
-          <div className="nine columns main-col">
-            <Particle />
+          <div className="twelve columns main-col">
+            {/* <Particle /> */}
             <h2>About Me</h2>
             <p>{resumeData.aboutme}</p>
 
@@ -23,18 +22,18 @@ export default class About extends Component {
                 <h2>Contact Details</h2>
                 <p className="address">
                   <span>{resumeData.name}</span>
-                  <br></br>
+                  <br />
                   <span>{resumeData.address}</span>
-                  <br></br>
+                  <br />
                   <span>
                     <a
-                      href="https://github.com/927tanmay"
+                      href="https://tanmay-portfolio.herokuapp.com/"
                       style={{ color: "#7a7a7a" }}
                     >
                       {resumeData.website}
                     </a>
                   </span>
-                  <br></br>
+                  <br />
                   <span>{resumeData.Phone}</span>
                 </p>
               </div>
