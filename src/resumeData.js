@@ -24,8 +24,8 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a final year student pursuing  B.tech(CSE)[2017-2021] at IIIT, Gwalior. I have worked in three agile companies, Innovaccer, WhatsurSkill and Trybotics. These internships provided me with a great platform to put skills as a software developer to action. I have done multiple projects in Web Development using Javascript, Node.js, React.js, MySQL, MongoDB. I also tried my hands in open source and have made few contributions to FOSSASIA organisation and also published my own npm package having 300+ downloads.I also have a good understanding of data structures and algorithms.",
-  address: "Gwalior(Madhya Pradesh), India",
+    "I am a final year student pursuing  B.tech(CSE)[2017-2021] at IIIT, Gwalior. I have worked with agile startups, HackerEarth, Innovaccer, WhatsurSkill and Trybotics. These internships provided me with a great platform to put skills as a software developer to action. I have done multiple projects in Web Development using Javascript, Node.js, React.js, MySQL, MongoDB. I also tried my hands in open source and have made few contributions to FOSSASIA organisation and also published my own npm package having 2k+ downloads.I also have a good understanding of data structures and algorithms.",
+  address: "Jaipur(Rajasthan), India",
   website: "927tanmay@gmail.com",
   Phone: "+919549052975",
   education: [

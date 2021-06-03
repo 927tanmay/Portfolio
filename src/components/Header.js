@@ -60,10 +60,10 @@ export default class Header extends Component {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Former Intern at Innovaccer")
+                      .typeString("Former Intern at HackerEarth, Innovaccer")
 
                       .pauseFor(300)
-                      .deleteChars(30)
+                      .deleteChars(40)
                       .typeString("Full Stack Devloper")
                       .pauseFor(300)
                       .start();
@@ -77,8 +77,7 @@ export default class Header extends Component {
                   marginTop: "20px",
                 }}
               >
-                Open to Full Time Opportunities after May 2021 or 6 months
-                internship from Jan 2021.
+                Open to Full Time Opportunities
               </h3>
 
               <ul className="social">

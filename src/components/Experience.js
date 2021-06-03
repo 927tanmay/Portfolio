@@ -13,6 +13,30 @@ export default class About extends Component {
           </div>
           <div className="nine columns main-col">
             <ul class="timeline">
+            <li class="event">
+                <div className="text">
+                  Frontend Engineering Intern -&nbsp;
+                  <span>
+                    <a
+                      href="https://www.hackerearth.com/"
+                      style={{ color: "lightseagreen" }}
+                      className="company"
+                    >
+                      <span>HackerEarth</span>
+                    </a>
+                  </span>
+                </div>
+                <div style={{ marginBottom: "20px" }}>Jan 2021 – May 2021</div>
+                <div style={{ marginBottom: "15px" }}>
+                  - Worked on the recruiting platform at hackerearth to build scalable
+                    UI components using ReactJS for platform being used by over 2.5M
+                    developers. 
+                </div>
+                <div style={{ marginBottom: "15px" }}>
+                  - Worked on revamping the frontend code editor with added features
+                    for babel support and console errors
+                </div>
+              </li>
               <li class="event">
                 <div className="text">
                   Software Development Intern -&nbsp;
